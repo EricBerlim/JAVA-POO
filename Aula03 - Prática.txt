@@ -1,0 +1,25 @@
+-------------------------------------------------------------
+AULA 03 - JAVA POO:
+-------------------------------------------------------------
+
+AULA PRÁTICA:
+
+ENTRAR NO NETBEANS, COPIAR A "Aula02" E RENOMEAR AULA03
+
+IR NA Aula02 E DEIXAR APENAS AS LINHAS:
+
+	Caneta c1 = new Caneta();
+	c1.status();
+
+DEPOIS IR EM Caneta.java E DEFINIR, ANTES DE CADA "VOID", O ACESSO, PODENDO SER PUBLIC, PRIVATE OU PROTECTED
+
+AS QUE FOREM PUBLIC PODEM SER MODIFICADAS LIVREMENTE NO PACOTE Aula02.java
+
+ex: 	c1.modelo = "BIC";
+        c1.cor = "azul";
+        c1.status();
+
+CASO QUEIRA MODIFICAR c1.ponta, NÃO IRÁ CONSEGUIR, POIS .ponta ESTÁ COMO COMO PRIVATE. SE FOSSE PUBLIC PODERIA
+
+NO CASO DO PROTECTED, DÁ PARA MODIFICAR, APESAR DE MOSTRAR QUE É PROTEGIDO POR MEIO DE UM DESENHO DE UMA CHAVE
+-------------------------------------------------------------

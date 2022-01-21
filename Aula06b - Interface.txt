@@ -1,0 +1,160 @@
+-------------------------------------------------------------
+AULA 06 B - JAVA POO:
+-------------------------------------------------------------
+
+ENCAPSULAMENTO e INTERFACE - NETBEANS:
+
+Clicar com o Botão Direito do Mouse no pacote do Projeto, Selecionar New e depois Interface Java.
+
+INTERFACE de CONTROLE REMOTO:
+
+public interface Controlador {
+    public abstract void ligar();
+    public abstract void desligar();
+    public abstract void abrirMenu();
+    public abstract void fecharmenu();
+    public abstract void maisVolume();
+    public abstract void menosVolume();
+    public abstract void ligarMudo();
+    public abstract void desligarMudo();
+    public abstract void play();
+    public abstract void pause();
+}
+
+Clicar com o Botão Direito do Mouse no pacote doProjeto, Selecionar New e depois Java Class.
+
+CLASSE de CONTROLE REMOTO:
+
+//Atributos
+    private int volume;
+    private boolean ligado;
+    private boolean tocando;
+    
+"Aqui deve-se inserir o Método Construtor"
+
+Clicar com o Botão Direito do Mouse na linha, depois em Insert Code e depois em Construtor.
+-------------------------------------------------------------
+//Métodos Especiais
+    public ControleRemoto() {
+        this.volume = 50;
+        this.ligado = false;
+        this.tocando = false;
+    }
+
+Agora deve-se fazer os Métodos GET e SET deles:
+
+Clicar com o Botão Direito do Mouse na linha, depois em Insert Code, depois GETTERS e SETTERS, marcando todos.
+
+public int getVolume() {
+        return volume;
+    }
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    public boolean getLigado() {
+        return ligado;
+    }
+    public void setLigado(boolean ligado) {
+        this.ligado = ligado;
+    }
+
+    public boolean getTocando() {
+        return tocando;
+    }
+    public void setTocando(boolean tocando) {
+        this.tocando = tocando;
+    }
+-------------------------------------------------------------
+Agora são os Métodos Abstratos:
+
+Antes, precisa informar que a Classe "ControleRemoto" IMPLEMENTA a Interface "Controlador".
+
+Para isso é só ir na Classe "ControleRemoto" e digitar "implements Controlador".
+
+Aparecerá uma lâmpada com: "Implement all abstract methods".
+Override = Sobrescrever.
+Já criados, deve-se Programá-los um por um.
+
+//Métodos Abstratos
+    @Override
+    public void ligar() {
+        this.setLigado(true);
+    }
+
+    @Override
+    public void desligar() {
+        this.setLigado(false);
+    }
+
+    @Override
+    public void abrirMenu() {
+        System.out.println("Está ligado? " + this.getLigado());
+        System.out.println("Está tocando? " + this.getTocando());
+        System.out.print("Volume: " + this.getVolume());
+        for (int i = 0; i <= this.getVolume(); i+=10) {
+            System.out.println("||");
+        }
+    }
+
+    @Override
+    public void fecharmenu() {
+        System.out.println("Fechando menu...");
+    }
+
+    @Override
+    public void maisVolume() {
+        if (this.getLigado()) {
+            this.setVolume(this.getVolume() + 5);
+        }
+    }
+
+    @Override
+    public void menosVolume() {
+        if (this.getLigado()) {
+            this.setVolume(this.getVolume() - 5);
+        }
+    }
+
+    @Override
+    public void ligarMudo() {
+        if (this.getLigado() && this.getVolume() > 0) {
+            this.setVolume(0);
+        }
+    }
+
+    @Override
+    public void desligarMudo() {
+        if (this.getLigado() && this.getVolume() == 0) {
+            this.setVolume(50);
+        }
+    }
+
+    @Override
+    public void play() {
+        if (this.getLigado() && !(this.getTocando())) {
+            this.setTocando(true);
+        }
+    }
+
+    @Override
+    public void pause() {
+        if (this.getLigado() && this.getTocando()) {
+            this.setTocando(false);
+        }
+    }
+
+Por fim, no Main:
+
+public class Aula06 {
+    public static void main(String[] args) {
+        ControleRemoto c = new ControleRemoto();
+        
+        c.ligar();
+        c.maisVolume();
+        c.play();
+        c.abrirMenu();
+        c.fecharmenu();
+    }
+}
+-------------------------------------------------------------

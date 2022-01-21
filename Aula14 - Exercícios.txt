@@ -1,0 +1,26 @@
+-------------------------------------------------------------
+AULA 14 - JAVA POO:
+-------------------------------------------------------------
+
+EXERCÍCIOS:
+
+1- Deve-se nomear o Contrutor com o mesmo nome da classe.
+
+Se você não inserir um Construtor, automaticamente os atributos numéricos receberão o valor "0", alfanuméricos recebem "vazio" e lógicos receberão o valor "false".
+
+2- Herança é uma das formas de reutilização de software onde há a criação de uma classe que absorve membros de outra classe já existente. É aprimorada com capacidades novas.
+
+3- Fornecer uma Superclasse apropriada a partir da qual outras classes podem herdar e, assim, compartilhar um design comum, é o propósito da classe Abastrata.
+
+4- Herança permite basear uma nova classe na definição de outra classe.
+
+5- Toda classe que possui "Final" não pode ter filhas.
+
+Pode ser instanciada.
+
+6- Utilizar acesso Protected oferece um nível intermediário entre public e private.
+
+Public		Não pode descer de níveis,		
+Protected	mas pode subir de níveis.
+Private 
+-------------------------------------------------------------

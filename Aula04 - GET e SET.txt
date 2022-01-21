@@ -1,0 +1,163 @@
+-------------------------------------------------------------
+AULA 04 - JAVA POO:
+-------------------------------------------------------------
+
+MÉTODOS ESPECIAIS:
+
+- ACESSORES ou GETTERS:
+
+PERMITE PEGAR UMA DETERMINADA COISA, OU SEJA, CONSEGUEM ACESSAR UM ATRIBUTO MANTENDO A SEGURANÇA
+
+ex:	e = nova Estante
+	t = e.getTotDoc() 
+	
+CRIA UMA VARIÁVEL t QUE É O TOTAL DE DOCUMENTOS, RECEBENDO
+e QUE É O  OBJETO, " . " E O MÉTODO getTotDoc.
+
+ESSE MÉTODO .getTotDoc VAI ATÉ A Estante, VERIFICA QUE TEM 5
+DOCUMENTOS E RETORNA A RESPOSTA PRA QUEM PEDIU E PRONTO .
+-------------------------------------------------------------
+
+- MODIFICADORES ou SETTERS:
+
+MODIFICAM COISAS QUE ESTÃO DENTRO DO OBJETO, GARANTINDO UMA TOTAL SEGURANÇA DO ATRIBUTO. 
+
+ex: 	e = nova Estante
+	e.setTotDoc(doc)
+
+NORMALMENTE ESSE MÉTODO PRECISA DE UM PARÂMETRO PRA FUNCIONAR
+	
+SE EU TENHO 2 ATRIBUTOS, ENTÃO EU TEREI 4 MÉTODOS, POIS HAVERÁ UM "GET" E UM "SET" PARA CADA ATRIBUTO.
+
+ex:	Caneta
+	+ modelo
+	- ponta
+
+	+ getModelo()
+	+ setModelo(m)
+	+ getPonta()
+	+ setPonta(p)
+
+TODOS OS 4 MÉTODOS SÃO PÚBLICOS E, NESSE CASO, OS SETTERS PRECISAM RECEBER PARÂMETROS. EM FORMA DE CÓDIGO FICA:
+
+Classe Caneta
+	public modelo: Caractere
+	private ponta: Real
+
+	public Metodo getModelo()
+		retorne modelo
+	FimMetodo
+	
+	public Metodo setModelo(m: Caractere)
+	modelo = m
+	FimMetodo
+
+	public Metodo getPonta()
+	retorne ponta
+	FimMetodo	
+
+	public Metodo setPonta(p: Real)
+	ponta = p
+	FimMetodo
+FimClasse
+
+c1 = new Caneta
+c1.setModelo("BIC")
+c1.setPonta(0.5)
+Escreva(c1.getModelo())
+Escreva(c1.getPonta())
+-------------------------------------------------------------
+
+CONSTRUTORES ou CONSTRUCT:
+
+
+SEMPRE QUE INSTANCIAR UM NOVO OBJETO (c1 = new Caneta) IRÁ EXECUTAR TUDO QUE ESTÁ DENTRO DO CONSTRUCT.
+
+ISSO DEFINIRÁ UM PADRÃO TODA VEZ QUE UM OBJETO FOR CRIADO, OU SEJA, SERÁ CRIADO COM AS CARACTERÍSTICAS JÁ DEFINIDAS.
+
+ex:
+
+Classe Caneta
+
+	Metodo construct()
+		tampar()
+		cor = "azul"
+	FimMetodo
+
+FimClasse
+
+c1. new Caneta
+
+ex:
+
+Classe Caneta
+	Metodo construct(m:Caractere, c:Caractere, p:Real)
+		
+		setModelo(m)
+		setCor(c)
+		setPonta(p)	
+		tampar()
+
+	FimMetodo
+FimClasse
+
+c1 = new Caneta("BIC", "azul", 0.5)
+
+ASSIM, "BIC" SERÁ INCLUÍDO DENTRO DE m, "azul" SERÁ INCLUÍDO DENTRO DE "c" E "0.5" DENTRO DE "p".
+-------------------------------------------------------------
+
+AULA 04 B - PRÁTICA:
+
+package aula04;
+public class Aula04 {
+    public static void main(String[] args) {
+        Caneta c1 = new Caneta();
+        
+        c1.setModelo("BIC"); //método acessor
+        //c1.modelo = "BIC"; proibido o acesso direto ao atributo
+       
+        c1.setPonta(0.5f);
+        //c1.ponta = 0.5f; proibido o acesso direto
+        
+        c1.status();
+    }    
+}
+-------------------------------------------------------------
+package aula04;
+public class Caneta {
+    public String modelo;
+    private float ponta;
+    
+    public String getModelo() {
+        return this.modelo;
+    }
+    public void setModelo(String m) {
+        this.modelo = m;
+    }
+    public float getPonta() {
+        return this.ponta;
+    }
+    public void setPonta(float p) {
+        this.ponta = p;
+    }
+    public void status() {
+        System.out.println("SOBRE A CANETA:");
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("Ponta: " + this.ponta);
+    }
+}
+
+OU
+
+AULA04:
+...
+System.out.println("Tenho uma caneta " + c1.getModelo() + " de ponta " + c1.getPonta());
+
+CLASSE CANETA:
+...
+public void status() {
+        System.out.println("SOBRE A CANETA:");
+        System.out.println("Modelo: " + this.getModelo());
+        System.out.println("Ponta: " + this.getPonta());
+    }
+-------------------------------------------------------------

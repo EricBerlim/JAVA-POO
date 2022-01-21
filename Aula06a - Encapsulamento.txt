@@ -1,0 +1,250 @@
+-------------------------------------------------------------
+AULA 06 A - JAVA POO:
+-------------------------------------------------------------
+
+OS 3 PILARES da POO:
+
+E ncapsulamento
+
+H erança
+
+P olimorfismo
+-------------------------------------------------------------
+
+ENCAPSULAMENTO:
+
+Protege o o código do programador e o programador do código.
+
+Um código encapsulado usa interfaces e moldes padronizados.
+
+Encapsulamento oculta partes independentes da implementação, permitindo construir partes invisíveis para o mundo exterior.
+-------------------------------------------------------------
+
+INTERFACE:
+
+É uma lista de serviços fornecidos por um componente.
+
+É o contato com o mundo exterior, que define o que pode ser feito com um objeto dessa classe.
+
+Encapsular não é obrigatório, mas é uma boa prática para produzir Classes mais eficientes.
+
+VANTAGENS do ENCAPSULAMENTO:
+
+-Torna as mudanças invisíveis
+
+-Facilita a reutilização do código
+
+-Reduz os efeitos colaterais
+
+COMO ENCAPSULAR:
+
+-Criar uma Interface (possui métodos e não possui atributos).
+
+Ex: <<interface>>
+     Controlador
+
+		//todos públicos
++ ligar()
++ desligar()
++ abrirMenu()
++ fecharMenu()
++ maisVolume()
++ menosVolume()
++ mutar()
++ desmutar()
++ play()
++ pause()
+
+-Definir Classe
+
+ControleRemoto (colocar lista de Métodos dentro da Classe)
+		
+		//todos privados
+- volume
+- ligado
+- tocando
+		//Métodos Abstratos
++ ligar()
++ desligar()
++ abrirMenu()
++ fecharMenu()
++ maisVolume()
++ menosVolume()
++ mutar()
++ desmutar()
++ play()
++ pause()
+		//Métodos Especiais
+- setVolume()
+- getVolume()
+- setLigado()
+- getLigado()
+- setTocando()
+- getTocando()
+
+Ex: interface Controlador
+
+//Métodos Abstratos
+	public abstrato Metodo ligar()
+	public abstrato Metodo desligar()
+	public abstrato Metodo abrirMenu()
+	public abstrato Metodo fecharMenu()
+	public abstrato Metodo maisVolume()
+	public abstrato Metodo menosVolume()
+	public abstrato Metodo mutar()
+	public abstrato Metodo desmutar()
+	public abstrato Metodo play()
+	public abstrato Metodo pause()
+//Atributos
+	private int volume
+	private boolean ligado
+	private boolean tocando
+//Métodos Especiais
+	public Metodo Constructor()
+		volume = 50;
+		ligado = false;
+		tocando = false;
+	FimMetodo
+	
+	private Metodo getVolume()
+		return volume
+	FimMetodo
+
+	private Metodo getLigado()
+		return volume
+	FimMetodo
+
+	private Metodo getTocando()
+		return volume
+	FimMetodo
+
+	private Metodo setVolume(int v)
+		volume = v;
+	FimMetodo
+
+	private Metodo setLigado(boolean l)
+		ligado = l;
+	FimMetodo
+
+	private Metodo setTocando(boolean t)
+		tocando = t;
+	FimMetodo
+FimInterface
+
+Classe ControleRemoto
+implementa Controlador
+//Sobrescrevendo Métodos
+	public Metodo ligar()
+	public Metodo desligar()
+	public Metodo abrirMenu()
+	public Metodo fecharMenu()
+	public Metodo maisVolume()
+	public Metodo menosVolume()
+	public Metodo mutar()
+	public Metodo desmutar()
+	public Metodo play()
+	public Metodo pause()
+FimClasse
+
+ENCAPSULAMENTO:
+
+Protege o o código do programador e o programador do código.
+
+Um código encapsulado usa interfaces e moldes padronizados.
+
+Encapsulamento oculta partes independentes da implementação, permitindo construir partes invisíveis para o mundo exterior.
+
+ControleRemoto (colocar lista de Métodos dentro da Classe)
+
+- volume
+- ligado
+- tocando
+
+//Métodos Abstratos
++ ligar()
++ desligar()
++ abrirMenu()
++ fecharMenu()
++ maisVolume()
++ menosVolume()
++ mutar()
++ desmutar()
++ play()
++ pause()
+
+//Métodos Especiais
+- setVolume()
+- getVolume()
+- setLigado()
+- getLigado()
+- setTocando()
+- getTocando()
+
+Ex: interface Controlador:
+
+//Métodos Abstratos
+	public abstrato Metodo ligar()
+	public abstrato Metodo desligar()
+	public abstrato Metodo abrirMenu()
+	public abstrato Metodo fecharMenu()
+	public abstrato Metodo maisVolume()
+	public abstrato Metodo menosVolume()
+	public abstrato Metodo mutar()
+	public abstrato Metodo desmutar()
+	public abstrato Metodo play()
+	public abstrato Metodo pause()
+
+//Atributos
+	private int volume
+	private boolean ligado
+	private boolean tocando
+
+//Métodos Especiais
+	public Metodo Constructor()
+		volume = 50;
+		ligado = false;
+		tocando = false;
+	FimMetodo
+	
+	private Metodo getVolume()
+		return volume
+	FimMetodo
+
+	private Metodo getLigado()
+		return volume
+	FimMetodo
+
+	private Metodo getTocando()
+		return volume
+	FimMetodo
+
+	private Metodo setVolume(int v)
+		volume = v;
+	FimMetodo
+
+	private Metodo setLigado(boolean l)
+		ligado = l;
+	FimMetodo
+
+	private Metodo setTocando(boolean t)
+		tocando = t;
+	FimMetodo
+FimInterface
+
+Classe ControleRemoto - implementa Controlador:
+
+//Sobrescrevendo Métodos
+	public Metodo ligar()
+	public Metodo desligar()
+	public Metodo abrirMenu()
+	public Metodo fecharMenu()
+	public Metodo maisVolume()
+	public Metodo menosVolume()
+	public Metodo mutar()
+	public Metodo desmutar()
+	public Metodo play()
+	public Metodo pause()
+FimClasse
+
+(EXEMPLO PRÁTICO no NETBEANS)
+-------------------------------------------------------------

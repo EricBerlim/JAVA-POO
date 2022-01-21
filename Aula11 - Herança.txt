@@ -1,0 +1,52 @@
+-------------------------------------------------------------
+AULA 11 - JAVA POO:
+-------------------------------------------------------------
+
+HERANÇA: (PARTE 2)
+
+Uma Superclasse também pode ser uma Subclasse.
+
+Toda Subclasse herda tudo o que a sua Superclasse tem.
+
+Quando se tem uma Classe que não possui Superclasses, ela é considerada a Raiz da árvore hierárquica.
+
+As Classes que não possuem filhas são chamadas de Folhas.
+
+ESPECIALIZAÇÃO: percorrer a árvore de Cima para Baixo.
+
+Ex: Bolsista é uma especialização de Aluno.
+
+GENERALIZAÇÃO: percorrer a árvore de Baixo pra Cima.
+
+Ex: Aluno é uma generalização de Bolsista.
+-------------------------------------------------------------
+
+TIPOS de HERANÇA:
+
+HERANÇA de IMPLEMENTAÇÃO:
+
+
+
+HERANÇA para DIFERENÇA:
+
+
+-------------------------------------------------------------
+
+ABSTRAÇÃO:
+
+Uma classe abstrata não pode ser instanciada.
+Não pode gerar objetos.
+Só pode servir como classe mãe.
+
+Método abstrato é implementado, mas não declarado na mãe.
+
+FINAL:
+
+Classe final não pode ser herdade por outra classe.
+Não pode ter filhas.
+Obrigatoriamente ela é folha.
+
+Método final não pode ser sobrescrito por suas Sub-classes.
+Obrigatoriamente é herdade.
+Não pode gerar Especialização desse método.
+-------------------------------------------------------------

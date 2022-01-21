@@ -1,0 +1,18 @@
+-------------------------------------------------------------
+AULA 05 - JAVA POO:
+-------------------------------------------------------------
+
+CONSTRUCT:
+
+É um Método com o mesmo nome da sua Classe
+
+Para criar um construtor, deve-se ir na Classe e criar:
+
+public void Caneta() {
+        
+    }
+
+ABAIXO DAS DECLARAÇÕES DAS VARIÁVEIS, SE APERTAR AS TECLAS: "CTRL + i" IRÁ DAR A OPÇÃO DE CRIAR AUTOMATICAMENTE O CÓDIGO.
+
+(EXEMPLO PRÁTICO no NETBEANS)
+-------------------------------------------------------------

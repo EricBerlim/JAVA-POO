@@ -1,0 +1,36 @@
+-------------------------------------------------------------
+AULA 08 A - JAVA POO:
+-------------------------------------------------------------
+
+AGREGAÇÃO: ("...TEM UM...")
+
+É representada por uma linha sólida na cor preta e um losango na ponta na cor branca.
+
+Nessa linha, tem-se um triângulo na cor cinza que possui o nome (ex: disputa) dessa Relação e aponta em uma direção.
+-------------------------------------------------------------
+
+MULTIPLICIDADE:
+
+Determina a quantidade que um objeto pode interagir com outro
+
+Ex: um lutador pode participar de 0 ou várias lutas (0..*).
+-------------------------------------------------------------
+
+CLASSE | ATRIBUTOS | MÉTODOS:
+
+       Luta
+____________________	
+    - desafiado
+    - desafiante
+    - rounds
+    - aprovada
+____________________
+    + marcarLuta
+    + lutar()
+      
+Em OO, podem ser criados Tipos Abstratos de Dados e Transformar Classes em determinados tipos.       
+
+Desafiado e Desafiante são instâncias da Classe Lutador
+
+Existe uma Relação entre Lutador e Luta.
+-------------------------------------------------------------

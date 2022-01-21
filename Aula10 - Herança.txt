@@ -1,0 +1,13 @@
+-------------------------------------------------------------
+AULA 10 - JAVA POO:
+-------------------------------------------------------------
+
+HERANÇA: (PARTE 1)
+
+Colocando a palavra EXTENDS após o nome da classe, cria-se uma herança automaticamente.
+
+Quem está antes do extends é a filha.
+
+Quem está depois do extends é a mãe.
+
+-------------------------------------------------------------

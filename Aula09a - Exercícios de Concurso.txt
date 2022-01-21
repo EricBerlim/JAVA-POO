@@ -1,0 +1,91 @@
+-------------------------------------------------------------
+AULA 09 A - JAVA POO:
+-------------------------------------------------------------
+
+EXERCÍCIOS de CONCURSO:
+
+1- Uma casa está para uma planta arquitetônica assim como um objeto está para uma classe.
+
+2- A programação OO se preocupa em produzir software que tenha as seguintes características: (C O M E R Nada)
+
+Confiável
+Oportuno
+Manutenível
+Extensível
+Reutilizável
+Natural
+
+3- Alternativas corretas com relação ao conceito de classe e objeto em POO.
+
+Objeto é uma instância de uma classe.
+
+Um objeto é uma construção de software que encapsula estado e comportamento.
+
+Uma classe define os atributos e comportamentos compartilhados por um tipo de objeto.
+
+Em uma linguagem POO pura, tudo é um objeto, desde os tipos mais básicos.
+
+4- Conceitos:
+
+Atributo: característica de uma classe que é visível.
+
+Classe: define os atributos e comportamentos comuns.
+
+Comportamento: ação executada por um objeto.
+
+Domínio:espaco onde o problema reside.
+
+Objeto: construção que encapsula estado e comportamento
+
+5- Definição de termos usados em POO:
+
+Uma variável interna é um valor mantido dentro do objeto.
+
+Atributos são características visíveis externamente.
+
+Comportamentos são funcionalidades internas.
+
+O estado de um objeto é o significado combinado das variáveis internas do objeto.
+
+6- Métodos:
+
+Contrutor: inicializam objetos durante a instanciação.
+
+Acessor: método que dá acesso aos dados internos.
+
+Mutante: método que permite que se altere o estado de objeto.
+
+Tipos: define as diferentes espécies de valores usados.
+
+7- Quais os 3 pilares da POO? (É H P)
+
+Encapsulamento | Herança | Polimorfismo.
+
+8 - Conceitos:
+
+Interface: Define o que uma entidade pode fazer com objetos.
+
+9- A maioria das linguagens OO suporta quais níveis de acesso
+
+Público | Privado | Protegido.
+
+10- Protected:
+
+É o nível de acesso que apenas garante o acesso para aquele objeto e suas subclasses.
+
+11- Quando se utiliza o conceito de encapsulamento da POO, enquanto a Implementação define os detalhes internos do componente, a Interface lista os serviços fornecidos por ele.
+
+12 - Encapsulamento é a característica da POO que permite separar o programa em várias partes menores e independentes.
+
+Cada parte possui sua implementação isolada e realiza seu trabalho de forma autônoma.
+
+Com essa característica é possível ocultar os detalhes internos de cada parte através de uma interface.
+
+13- Abstração é o conceito de POO que significa representar uma entidade, incluindo apenas seus atributos mais relevantes
+
+14- Conceitos:
+
+Classes são tipos abstratos de dados.
+
+Subclasse é uma classe definida por meio de outra classe.
+-------------------------------------------------------------

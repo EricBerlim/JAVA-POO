@@ -1,0 +1,54 @@
+-------------------------------------------------------------
+AULA 07 A - JAVA POO:
+-------------------------------------------------------------
+
+RELACIONAMENTO entre CLASSES:
+
+Faremos um Programa de nome UEC (Ultimate Emoji Championship)
+
+1º Definir os Atributos na forma Private:
+
+-nome
+-nacionalidade
+-idade
+-altura
+-peso
+-categoria
+-vitórias
+-derrotas
+-empates
+
+2º Criar os Métodos na forma Public:
+
+apresentar()
+status()
+ganharLuta()
+perderLuta()
+empatarLuta()
+
+3º Criar Classe Lutador ?
+
+4º Montar o Main com os Lutadores em forma de Vetor:
+
+L: vetor[0..5]
+
+L[0] = novo Lutador(
+"Pretty Boy", "França",
+31, 1.75, 68.9,
+11, 3, 1)
+
+L[1] = novo Lutador()
+"Puts Cript", "Brasil",
+29, 1.68, 57.8,
+14, 2, 3)
+
+L[2] = novo Lutador()
+"Snap Shadow", "EUA",
+35, 1.65, 80.9,
+12, 2, 1)
+
+L[3] = novo Lutador()
+"Dead Code", "Austrália",
+28, 1.93, 81.6,
+13, 0, 2)
+-------------------------------------------------------------

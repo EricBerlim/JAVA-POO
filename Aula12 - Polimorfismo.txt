@@ -1,0 +1,33 @@
+-------------------------------------------------------------
+AULA 12 - JAVA POO:
+-------------------------------------------------------------
+
+POLIMORFISMO:
+
+Permite que 1 mesmo nome represente vários comportamentos e formas diferentes.
+
+ASSINATURA do MÉTODO:
+
+Todo método tem uma assinatura.
+
+Consiste em Quantidade e Tipos dos Parâmetros.
+
+Essa quantidade e tipo que revelam a sua assinatura.
+-------------------------------------------------------------
+
+TIPOS de POLIMORFISMO: SOBREPOSIÇÃO e SOBRECARGA:
+
+SOBREPOSIÇÃO: @Override
+
+Acontece quando Substituímos um método de uma Superclasse em sua Subclasse, usando a mesma assinatura.
+
+Assinaturas semelhantes.
+
+Feito em classes diferentes.
+
+SOBRECARGA:
+
+Possui assinaturas diferentes.
+
+Feito na mesma classe.
+-------------------------------------------------------------

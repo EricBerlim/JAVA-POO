@@ -1,0 +1,46 @@
+-------------------------------------------------------------
+AULA 15 A - JAVA POO:
+-------------------------------------------------------------
+
+EXERCÍCIOS:
+
+1- De Inclusão, Paramétrico, Sobrecarga e Sobreposição são quatro tipos de Polimorfismo.
+
+2- Sobrecarga: quando se utiliza, dentro de uma mesma classe, um mesmo nome de método para muitos métodos diferentes.
+
+3- Método Final NÃO pode ser Sobrescrito.
+
+Classe Abstrata NÃO é instanciada.
+
+Classe Final NÃO pode ser Superclasse.
+
+Método Abstrato deve ter implementação na Subclasse.
+
+4- A Especialização permite que você remova comportamentos e atributos da classe filha.
+
+Métodos de acesso private não são herdados pela filha.
+
+Protected permite o acesso à classe atual e às suas filhas.
+
+5- O polimorfismo permite que um único Nome expresse muitos comportamentos diferentes.
+
+Um tipo de polimorfismo é a Sobrecarga, que permite que possa ser declarado o mesmo Método várias vezes.
+
+Sendo que cada declaração difere simplesmente no Número e no Tipo de seus argumentos.
+
+6- Faz parte da Assinatura de um Método:
+
+- Nome
+- Quantidade de parâmetros
+- Tipos de parâmetros
+
+7- Sobrecarga é colocar o método na mesma classe, porém com assinaturas diferentes.
+
+Assinaturas: quantidades e tipos de parâmetros.
+
+Só importa o que está entre parênteses.
+
+8- Sobrepor = @Override.
+
+9- Classe Final: NÃO pode ser herança (usar extends).
+-------------------------------------------------------------

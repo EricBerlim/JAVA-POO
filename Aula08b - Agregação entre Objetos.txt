@@ -1,0 +1,46 @@
+-------------------------------------------------------------
+AULA 08 B - JAVA POO:
+-------------------------------------------------------------
+
+RELACIONAMENTO de AGREGAÇÃO: ("...TEM UM...")
+
+Todo atributo possui um tipo: int, float, boolean, string.
+
+Em POO pode-se criar o que se chama de Tipo Abstrato de Dados e tranformar as Classes em determinados tipos.
+
+CLASSE | ATRIBUTOS | MÉTODOS:
+
+       Luta
+____________________	
+    - desafiado : Lutador
+    - desafiante : Lutador
+    - rounds : int
+    - aprovada : boolean
+____________________
+    + marcarLuta
+    + lutar()
+      
+Em OO, podem ser criados Tipos Abstratos de Dados e Transformar Classes em determinados tipos.       
+
+Desafiado e Desafiante são instâncias da Classe Lutador
+
+Existe uma Relação entre Lutador e Luta.
+
+Também é possível a utilização de tipos abstratos como parâmetros dentro dos métodos.
+
+PRÁTICA:
+
+Em Métodos Especiais, clique com o botão direito, depois em inserir código, depois em Get e Set.
+
+Para gerar um resultado aleatório, pode-se criar um objeto do tipo Random.
+
+Ex: Random aleatorio = new Random();
+
+Depois pode clicar no erro com o botão esquerdo no erro e selecionar Adicionar Importação.
+
+Isso irá adicionar a: import java.util.Random; no topo.
+
+Ex: int vencedor = aleatorio.nextInt(3);
+
+Isso vai gerar 3 resultados (1, 2 e 3).
+-------------------------------------------------------------
