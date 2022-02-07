@@ -1,6 +1,6 @@
--------------------------------------------------------------
+---------------------------------------------------------
 JAVA POO: PROGRAMAÇÃO ORIENTADA A OBJETOS:
--------------------------------------------------------------
+---------------------------------------------------------
 
 ALAN KAY CRIOU A POO E TAMBÉM O CONCEITO DE TABLET E NOTEBOOK
 
@@ -12,8 +12,8 @@ LINGUAGENS POO:
 - JAVA: ORIENTADA A OBJETOS OBRIGATORIAMENTE
 - PHP: BASEADA EM CLASSES
 - PYTHON: ORIENTADA A OBJETOS
--------------------------------------------------------------
 
+---------------------------------------------------------
 VANTAGENS DA POO: C O M E R N ada
 
 - CONFIABILIDADE: O ISOLAMENTO ENTRE AS PARTES GERA UM SOFTWARE SEGURO. AO ALTERAR UMA PARTE NÃO AFETA AS OUTRAS.
@@ -27,8 +27,8 @@ VANTAGENS DA POO: C O M E R N ada
 - REUTILIZÁVEL: PODEMOS USAR OBJETOS OU CÓDIGOS DE UM SISTEMA QUE CRIAMOS E UTILIZAR EM UM OUTRO SISTEMA FUTURO.
 
 - NATURAL: MAIS FÁCIL DE ENTENDER. VOCÊ SE PREOCUPA MAIS NA FUNCIONALIDADE DO QUE NOS DETALHES DE IMPLEMENTAÇÃO.
--------------------------------------------------------------
 
+---------------------------------------------------------
 OBJETO: COISA MATERIAL OU ABSTRATA QUE PODE SER PERCEBIDA PELOS SENTIDOS E DESCRITA POR MEIO DE CARACTERÍSTICAS, COMPORTAMENTOS E ESTADO ATUAL.
 
 EX: Classe Caneta
@@ -47,8 +47,8 @@ EX: Classe Caneta
 		tampada = verdadeiro
 	FimMetodo
     FimClasse
--------------------------------------------------------------
-
+	
+---------------------------------------------------------
 INSTANCIAR:
 
 c1 = novaCaneta
@@ -56,4 +56,4 @@ c1.cor = "Azul"
 c1.ponta = 0.5
 c1.tampada = verdadeiro
 c1.rabiscar()
--------------------------------------------------------------
+---------------------------------------------------------

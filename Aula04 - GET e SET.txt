@@ -1,6 +1,6 @@
--------------------------------------------------------------
+---------------------------------------------------------
 AULA 04 - JAVA POO:
--------------------------------------------------------------
+---------------------------------------------------------
 
 MÉTODOS ESPECIAIS:
 
@@ -15,9 +15,9 @@ CRIA UMA VARIÁVEL t QUE É O TOTAL DE DOCUMENTOS, RECEBENDO
 e QUE É O  OBJETO, " . " E O MÉTODO getTotDoc.
 
 ESSE MÉTODO .getTotDoc VAI ATÉ A Estante, VERIFICA QUE TEM 5
-DOCUMENTOS E RETORNA A RESPOSTA PRA QUEM PEDIU E PRONTO .
--------------------------------------------------------------
+DOCUMENTOS E RETORNA A RESPOSTA PRA QUEM PEDIU E PRONTO.
 
+---------------------------------------------------------
 - MODIFICADORES ou SETTERS:
 
 MODIFICAM COISAS QUE ESTÃO DENTRO DO OBJETO, GARANTINDO UMA TOTAL SEGURANÇA DO ATRIBUTO. 
@@ -66,8 +66,8 @@ c1.setModelo("BIC")
 c1.setPonta(0.5)
 Escreva(c1.getModelo())
 Escreva(c1.getPonta())
--------------------------------------------------------------
 
+---------------------------------------------------------
 CONSTRUTORES ou CONSTRUCT:
 
 
@@ -104,8 +104,8 @@ FimClasse
 c1 = new Caneta("BIC", "azul", 0.5)
 
 ASSIM, "BIC" SERÁ INCLUÍDO DENTRO DE m, "azul" SERÁ INCLUÍDO DENTRO DE "c" E "0.5" DENTRO DE "p".
--------------------------------------------------------------
 
+---------------------------------------------------------
 AULA 04 B - PRÁTICA:
 
 package aula04;
@@ -122,7 +122,8 @@ public class Aula04 {
         c1.status();
     }    
 }
--------------------------------------------------------------
+
+---------------------------------------------------------
 package aula04;
 public class Caneta {
     public String modelo;
@@ -160,4 +161,4 @@ public void status() {
         System.out.println("Modelo: " + this.getModelo());
         System.out.println("Ponta: " + this.getPonta());
     }
--------------------------------------------------------------
+---------------------------------------------------------

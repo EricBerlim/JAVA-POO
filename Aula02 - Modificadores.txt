@@ -1,6 +1,6 @@
--------------------------------------------------------------
+---------------------------------------------------------
 AULA 02 - JAVA POO:
--------------------------------------------------------------
+---------------------------------------------------------
 
 PRÁTICA: ABRIR O NETBEANS E DEPOIS EM NEW PROJECT:
 
@@ -19,8 +19,8 @@ E O MÉTODO TEM PARÊNTESES DEPOIS
 
 - "THIS" É UMA REFERÊNCIA AO NOME DO OBJETO QUE CHAMOU
 SEMPRE QUE VOCÊ QUISER MODIFICAR UM ATRIBUTO DENTRO DA PRÓPRIA CLASSE, DIGITE "THIS" ANTES DA LINHA DE CÓDIGO QUE IRÁ ALTERAR ESSE ATRIBUTO
--------------------------------------------------------------
 
+---------------------------------------------------------
 LINGUAGEM de MODELAGEM UNIFICADA - UML:
 
 DIAGRAMA DE CLASSES: 
@@ -34,9 +34,8 @@ NO MEIO, DEVE-SE INSERIR TODOS OS ATRIBUTOS DA CLASSE
 
 NA PARTE INFERIOR, DEVE-SE COLOCAR TODOS OS MÉTODOS
 ( escrever() rabiscar() pintar() tampar() destampar() )
--------------------------------------------------------------
 
-MODIFICADORES de VISIBILIDADE:
+---------------------------------------------------------MODIFICADORES de VISIBILIDADE:
 
 INDICAM O NÍVEL DE ACESSO AOS COMPONENTES INTERNOS DA CLASSE, OU SEJA, INDICAM O ACESSO AOS ATRIBUTOS E MÉTODOS
 
@@ -47,4 +46,4 @@ INDICAM O NÍVEL DE ACESSO AOS COMPONENTES INTERNOS DA CLASSE, OU SEJA, INDICAM 
 # PROTEGIDOS: A CLASSE ATUAL E TODAS AS SUAS SUB-CLASSES
 
 TUDO O QUE FOR PRIVADO E PROTEGIDO NÃO PODE SER MODIFICADO
-------------------------------------------------------------  
+---------------------------------------------------------
